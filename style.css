@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.2%; }
+
+body {
+  background-color: #ffffe8; }
+
+.display-none {
+  display: none; }
+
+.SubmitResultPop {
+  width: max-content;
+  height: 30vh;
+  margin: 0 auto;
+  padding: 1rem;
+  font-size: 2.4rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #fffbf5; }
+  .SubmitResultPop button {
+    width: 10rem;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    background-color: #0081c9;
+    padding: 1rem 1.6rem;
+    margin: 2rem;
+    color: #fffbf5;
+    border-radius: 20px;
+    cursor: pointer; }
+
+.container {
+  font-size: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #fffbf5;
+  margin: 5vh auto;
+  width: 70vh;
+  height: auto; }
+
+.input-form {
+  height: 100%; }
+  .input-form div {
+    padding: 0.5rem 2.4rem 2rem 1.6rem; }
+    .input-form div p {
+      font-size: 1.6rem;
+      color: red; }
+  .input-form div:first-child {
+    text-align: center; }
+  .input-form div:last-child {
+    text-align: center; }
+    .input-form div:last-child button {
+      width: 12rem;
+      font-size: 2rem;
+      background: none;
+      border: none;
+      background-color: #0081c9;
+      padding: 1rem 1.6rem;
+      margin-right: 2rem;
+      color: #fffbf5;
+      border-radius: 20px;
+      cursor: pointer; }
+      .input-form div:last-child button:hover {
+        transform: scale(1.1); }
+  .input-form label {
+    display: block;
+    padding-bottom: 1rem; }
+  .input-form input {
+    width: 95%;
+    height: 4rem;
+    font-size: 2rem; }
+  .input-form input:focus {
+    outline: white; }
