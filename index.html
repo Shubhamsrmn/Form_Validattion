@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <form action="" class="input-form">
+          <div><h1>Register with us</h1></div>
+          <div>
+            <label for="UserName">UserName</label>
+            <input
+              type="text"
+              id="UserName"
+              class="inputfield"
+              placeholder="Enter your Name"
+            />
+            <p></p>
+          </div>
+          <div>
+            <label for="Email">Email</label>
+            <input
+              type="email"
+              id="Email"
+              class="inputfield"
+              placeholder="Enter your Email"
+            />
+            <p></p>
+          </div>
+          <div>
+            <label for="Password">Password</label>
+            <input
+              type="password"
+              id="Password"
+              class="inputfield"
+              placeholder="Enter your Password"
+            />
+            <p class="passwordtext"></p>
+          </div>
+          <div>
+            <label for="confirmPassword">Confirm Password</label>
+            <input
+              type="password"
+              id="confirmPassword"
+              class="inputfield"
+              placeholder="Enter your Password Again"
+            />
+            <p class="confirmpasstext"></p>
+          </div>
+          <div>
+            <span><button type="submit" id="submitbtn">Submit</button></span>
+            <span><button type="reset" id="resetbtn">Reset</button></span>
+          </div>
+        </form>
+      </div>
+      <div class="SubmitResultPop display-none">
+        <div>Your Enter Details 👉</div>
+        <div>
+          <span>UserName :</span>
+          <span class="UserNameOp"></span>
+        </div>
+        <div>
+          <span>Email :</span>
+          <span class="EmailOp"></span>
+        </div>
+        <div>
+          <span>
+            <button class="confirm-btn">Confirm</button>
+          </span>
+          <span>
+            <button class="cancel-btn">Cancel</button>
+          </span>
+        </div>
+      </div>
+    </main>
+    <script src="controller.js"></script>
+  </body>
+</html>
